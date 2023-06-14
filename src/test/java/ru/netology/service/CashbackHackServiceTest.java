@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     }
 
 
-   @Test
+    @Test
     public void IfAmountEqually1_001() {
         CashbackHackService service = new CashbackHackService();
 
@@ -52,7 +52,6 @@ public class CashbackHackServiceTest {
         int expected = 0;
         Assert.assertEquals(expected, actual);
     }
-
 
 
 }
